@@ -31,7 +31,15 @@ extern "C"
 // package name and everything should just work.
 //
 
-MIOK_STACK_PUBLIC const char *greet(void);
+typedef struct StackOf StackOf;
+
+MIOK_STACK_PUBLIC StackOf *miok_stack_create(void);
+MIOK_STACK_PUBLIC void miok_stack_erase(StackOf **structure_ref);
+MIOK_STACK_PUBLIC void miok_stack_push(StackOf *structure_ptr, const char *data);
+MIOK_STACK_PUBLIC char *miok_stack_pop(StackOf *structure_ptr);
+MIOK_STACK_PUBLIC char *miok_stack_peek(StackOf *structure_ptr);
+MIOK_STACK_PUBLIC unsigned int miok_stack_its_empty(StackOf *structure_ptr);
+MIOK_STACK_PUBLIC unsigned int miok_stack_not_empty(StackOf *structure_ptr);
 
 #ifdef __cplusplus
 }
