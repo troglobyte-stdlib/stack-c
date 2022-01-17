@@ -108,6 +108,7 @@ int main(void)
 * * *
 
 You may find that the project has a community in which you
-can keep up to date on the latest features, apps being developed and news. Simply done by joining on [Reddit](https://www.reddit.com/r/miok/)
+can keep up to date on the latest features, apps being developed
+and news. Simply done by joining on [Reddit](https://www.reddit.com/r/miok/)
 
 Lastly don't forget to have a cup of virtual coffee, and happy coding. ☕💻
